@@ -4,6 +4,9 @@
 Automate your Arch Linux system updates using `yay` (covers official + AUR packages), Flatpak, and Homebrew, with cache cleaning and Telegram notifications.  
 Runs silently in the background and logs all actions.
 
+# If you are using any other disribution, look at the Distros folder and copy the script for your distribution in th update folder and delete other files.
+For example: If you are using Linux Mint, copy the UpdateDebian.sh in the update folder then delte Distros folder, delete original update.sh and rename UpdateDebian.sh into update.sh. The guide below is regarding arch based distros. But the above steps should guarantee the working on any other distro.
+Note: This was tested in EndeavourOS. THe scripts have not been tested in any other OS. 
 ---
 
 ## Features
