@@ -1,4 +1,4 @@
-===== Update started at 2025-05-25 17:37:55 =====
+===== Update started at 2025-05-26 09:44:32 =====
 🛠 Starting Arch system maintenance...
 📦 Updating with yay...
 :: Synchronizing package databases...
@@ -7,58 +7,272 @@
  extra downloading...
  multilib downloading...
  DEB_Arch_Extra downloading...
- sublime-text downloading...
-:: [1mSearching AUR for updates...[0m
-:: [1mSearching databases for updates...[0m
- -> dracut: local (107-1) is newer than endeavouros (106-1)
- there is nothing to do
-🧹 Removing orphaned packages...
-🧼 Cleaning caches...
-Packages to keep:
-  All locally installed packages
-
-Cache directory: /var/cache/pacman/pkg/
-:: Do you want to remove all other packages from cache? [Y/n] 
-removing old packages from cache...
-
-Database directory: /var/lib/pacman/
-:: Do you want to remove unused repositories? [Y/n] 
-removing unused sync repositories...
-Packages to keep:
-  All locally installed packages
-
-Cache directory: /var/cache/pacman/pkg/
-:: Do you want to remove all other packages from cache? [Y/n] 
-removing old packages from cache...
-
-Database directory: /var/lib/pacman/
-:: Do you want to remove unused repositories? [Y/n] 
-removing unused sync repositories...
-
-Build directory: /home/siddhant/.cache/yay
-removing AUR packages from cache...
-removing untracked AUR files from cache...
-Packages to keep:
-  All locally installed packages
-
-Cache directory: /var/cache/pacman/pkg/
-:: Do you want to remove all other packages from cache? [Y/n] 
-removing old packages from cache...
-
-Database directory: /var/lib/pacman/
-:: Do you want to remove unused repositories? [Y/n] 
-removing unused sync repositories...
-
-Clone Directory: /home/siddhant/.cache/paru/clone
-:: Do you want to clean all other AUR packages from cache? [Y/n]: 
-
-Diff Directory: /home/siddhant/.cache/paru/diff
-:: Do you want to remove all saved diffs? [Y/n]: 
-📦 Updating Flatpak...
-Looking for updates…
-
-Nothing to do.
-🍺 Updating Homebrew...
-==> Updating Homebrew...
-Already up-to-date.
-✅ Update completed at Sun May 25 05:38:09 PM +0545 2025
+error: failed retrieving file 'core.db' from sg.mirrors.cicku.me : Could not resolve host: sg.mirrors.cicku.me
+warning: fatal error from sg.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from sg.mirrors.cicku.me : Could not resolve host: sg.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from sg.mirrors.cicku.me : Could not resolve host: sg.mirrors.cicku.me
+error: failed retrieving file 'DEB_Arch_Extra.db' from mega.nz : Could not resolve host: mega.nz
+warning: fatal error from mega.nz, skipping for the remainder of this transaction
+error: failed retrieving file 'endeavouros.db' from mirror.nag.albony.in : Could not resolve host: mirror.nag.albony.in
+warning: fatal error from mirror.nag.albony.in, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from it.mirrors.cicku.me : Could not resolve host: it.mirrors.cicku.me
+warning: fatal error from it.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from it.mirrors.cicku.me : Could not resolve host: it.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from it.mirrors.cicku.me : Could not resolve host: it.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirror.jingk.ai : Could not resolve host: mirror.jingk.ai
+warning: fatal error from mirror.jingk.ai, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.xeonbd.com : Could not resolve host: mirror.xeonbd.com
+warning: fatal error from mirror.xeonbd.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.xeonbd.com : Could not resolve host: mirror.xeonbd.com
+error: failed retrieving file 'extra.db' from mirror.xeonbd.com : Could not resolve host: mirror.xeonbd.com
+error: failed retrieving file 'endeavouros.db' from mirror.moson.org : Could not resolve host: mirror.moson.org
+warning: fatal error from mirror.moson.org, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from in.mirrors.cicku.me : Could not resolve host: in.mirrors.cicku.me
+warning: fatal error from in.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from in.mirrors.cicku.me : Could not resolve host: in.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from in.mirrors.cicku.me : Could not resolve host: in.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirror.leitecastro.com : Could not resolve host: mirror.leitecastro.com
+warning: fatal error from mirror.leitecastro.com, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from ch.mirrors.cicku.me : Could not resolve host: ch.mirrors.cicku.me
+warning: fatal error from ch.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ch.mirrors.cicku.me : Could not resolve host: ch.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from ch.mirrors.cicku.me : Could not resolve host: ch.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirrors.tuna.tsinghua.edu.cn : Could not resolve host: mirrors.tuna.tsinghua.edu.cn
+warning: fatal error from mirrors.tuna.tsinghua.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from sg.arch.niranjan.co : Could not resolve host: sg.arch.niranjan.co
+warning: fatal error from sg.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from sg.arch.niranjan.co : Could not resolve host: sg.arch.niranjan.co
+error: failed retrieving file 'extra.db' from sg.arch.niranjan.co : Could not resolve host: sg.arch.niranjan.co
+error: failed retrieving file 'endeavouros.db' from mirrors.jlu.edu.cn : Could not resolve host: mirrors.jlu.edu.cn
+warning: fatal error from mirrors.jlu.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from asia.mirror.pkgbuild.com : Could not resolve host: asia.mirror.pkgbuild.com
+warning: fatal error from asia.mirror.pkgbuild.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from asia.mirror.pkgbuild.com : Could not resolve host: asia.mirror.pkgbuild.com
+error: failed retrieving file 'extra.db' from asia.mirror.pkgbuild.com : Could not resolve host: asia.mirror.pkgbuild.com
+error: failed retrieving file 'endeavouros.db' from mirror.b-interactive.com.au : Could not resolve host: mirror.b-interactive.com.au
+warning: fatal error from mirror.b-interactive.com.au, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from kr.mirrors.cicku.me : Could not resolve host: kr.mirrors.cicku.me
+warning: fatal error from kr.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from kr.mirrors.cicku.me : Could not resolve host: kr.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from kr.mirrors.cicku.me : Could not resolve host: kr.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirror.funami.tech : Could not resolve host: mirror.funami.tech
+warning: fatal error from mirror.funami.tech, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.funami.tech : Could not resolve host: mirror.funami.tech
+error: failed retrieving file 'multilib.db' from mirror.funami.tech : Could not resolve host: mirror.funami.tech
+error: failed retrieving file 'extra.db' from mirror.funami.tech : Could not resolve host: mirror.funami.tech
+error: failed retrieving file 'endeavouros.db' from mirror.rznet.fr : Could not resolve host: mirror.rznet.fr
+warning: fatal error from mirror.rznet.fr, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from jp.mirrors.cicku.me : Could not resolve host: jp.mirrors.cicku.me
+warning: fatal error from jp.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from jp.mirrors.cicku.me : Could not resolve host: jp.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from jp.mirrors.cicku.me : Could not resolve host: jp.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirror.gofoss.xyz : Could not resolve host: mirror.gofoss.xyz
+warning: fatal error from mirror.gofoss.xyz, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from al.arch.niranjan.co : Could not resolve host: al.arch.niranjan.co
+warning: fatal error from al.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from al.arch.niranjan.co : Could not resolve host: al.arch.niranjan.co
+error: failed retrieving file 'extra.db' from al.arch.niranjan.co : Could not resolve host: al.arch.niranjan.co
+error: failed retrieving file 'endeavouros.db' from mirror.freedif.org : Could not resolve host: mirror.freedif.org
+warning: fatal error from mirror.freedif.org, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from fr.mirrors.cicku.me : Could not resolve host: fr.mirrors.cicku.me
+warning: fatal error from fr.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from fr.mirrors.cicku.me : Could not resolve host: fr.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from fr.mirrors.cicku.me : Could not resolve host: fr.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirrors.nxtgen.com : Could not resolve host: mirrors.nxtgen.com
+warning: fatal error from mirrors.nxtgen.com, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from gb.mirrors.cicku.me : Could not resolve host: gb.mirrors.cicku.me
+warning: fatal error from gb.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from gb.mirrors.cicku.me : Could not resolve host: gb.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from gb.mirrors.cicku.me : Could not resolve host: gb.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from repo.c48.uk : Could not resolve host: repo.c48.uk
+warning: fatal error from repo.c48.uk, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from es.mirrors.cicku.me : Could not resolve host: es.mirrors.cicku.me
+warning: fatal error from es.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from es.mirrors.cicku.me : Could not resolve host: es.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from es.mirrors.cicku.me : Could not resolve host: es.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from mirror.alpix.eu : Could not resolve host: mirror.alpix.eu
+warning: fatal error from mirror.alpix.eu, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from de.arch.niranjan.co : Could not resolve host: de.arch.niranjan.co
+warning: fatal error from de.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from de.arch.niranjan.co : Could not resolve host: de.arch.niranjan.co
+error: failed retrieving file 'extra.db' from de.arch.niranjan.co : Could not resolve host: de.arch.niranjan.co
+error: failed retrieving file 'endeavouros.db' from mirror.archlinux.tw : Could not resolve host: mirror.archlinux.tw
+warning: fatal error from mirror.archlinux.tw, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from at.mirrors.cicku.me : Could not resolve host: at.mirrors.cicku.me
+warning: fatal error from at.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from at.mirrors.cicku.me : Could not resolve host: at.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from at.mirrors.cicku.me : Could not resolve host: at.mirrors.cicku.me
+error: failed retrieving file 'endeavouros.db' from www.miraa.jp : Could not resolve host: www.miraa.jp
+warning: fatal error from www.miraa.jp, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.xtom.com.hk : Could not resolve host: mirror.xtom.com.hk
+warning: fatal error from mirror.xtom.com.hk, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.xtom.com.hk : Could not resolve host: mirror.xtom.com.hk
+error: failed retrieving file 'extra.db' from mirror.xtom.com.hk : Could not resolve host: mirror.xtom.com.hk
+error: failed retrieving file 'endeavouros.db' from mirrors.c0urier.net : Could not resolve host: mirrors.c0urier.net
+warning: fatal error from mirrors.c0urier.net, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.trap.moe : Could not resolve host: mirror.trap.moe
+warning: fatal error from mirror.trap.moe, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.trap.moe : Could not resolve host: mirror.trap.moe
+error: failed retrieving file 'extra.db' from mirror.trap.moe : Could not resolve host: mirror.trap.moe
+error: failed retrieving file 'endeavouros.db' from ftp.belnet.be : Could not resolve host: ftp.belnet.be
+warning: fatal error from ftp.belnet.be, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from tr.arch.niranjan.co : Could not resolve host: tr.arch.niranjan.co
+warning: fatal error from tr.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from tr.arch.niranjan.co : Could not resolve host: tr.arch.niranjan.co
+error: failed retrieving file 'extra.db' from tr.arch.niranjan.co : Could not resolve host: tr.arch.niranjan.co
+error: failed retrieving file 'endeavouros.db' from distrohub.kyiv.ua : Could not resolve host: distrohub.kyiv.ua
+warning: fatal error from distrohub.kyiv.ua, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from us.arch.niranjan.co : Could not resolve host: us.arch.niranjan.co
+warning: fatal error from us.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from us.arch.niranjan.co : Could not resolve host: us.arch.niranjan.co
+error: failed retrieving file 'extra.db' from us.arch.niranjan.co : Could not resolve host: us.arch.niranjan.co
+error: failed retrieving file 'endeavouros.db' from mirrors.urbanwave.co.za : Could not resolve host: mirrors.urbanwave.co.za
+warning: fatal error from mirrors.urbanwave.co.za, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.datacenter.by : Could not resolve host: mirror.datacenter.by
+warning: fatal error from mirror.datacenter.by, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.datacenter.by : Could not resolve host: mirror.datacenter.by
+error: failed retrieving file 'extra.db' from mirror.datacenter.by : Could not resolve host: mirror.datacenter.by
+error: failed retrieving file 'endeavouros.db' from mirror.accum.se : Could not resolve host: mirror.accum.se
+warning: fatal error from mirror.accum.se, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from mirror.cspacehostings.com : Could not resolve host: mirror.cspacehostings.com
+warning: fatal error from mirror.cspacehostings.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.cspacehostings.com : Could not resolve host: mirror.cspacehostings.com
+error: failed retrieving file 'extra.db' from mirror.cspacehostings.com : Could not resolve host: mirror.cspacehostings.com
+error: failed retrieving file 'endeavouros.db' from mirrors.gigenet.com : Could not resolve host: mirrors.gigenet.com
+warning: fatal error from mirrors.gigenet.com, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from cdnmirror.com : Could not resolve host: cdnmirror.com
+warning: fatal error from cdnmirror.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from cdnmirror.com : Could not resolve host: cdnmirror.com
+error: failed retrieving file 'extra.db' from cdnmirror.com : Could not resolve host: cdnmirror.com
+error: failed retrieving file 'endeavouros.db' from fosszone.csd.auth.gr : Could not resolve host: fosszone.csd.auth.gr
+warning: fatal error from fosszone.csd.auth.gr, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from arch.yhtez.xyz : Could not resolve host: arch.yhtez.xyz
+warning: fatal error from arch.yhtez.xyz, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from arch.yhtez.xyz : Could not resolve host: arch.yhtez.xyz
+error: failed retrieving file 'extra.db' from arch.yhtez.xyz : Could not resolve host: arch.yhtez.xyz
+error: failed retrieving file 'endeavouros.db' from ftp.rz.tu-bs.de : Could not resolve host: ftp.rz.tu-bs.de
+warning: fatal error from ftp.rz.tu-bs.de, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from archlinux.iskon.hr : Could not resolve host: archlinux.iskon.hr
+warning: fatal error from archlinux.iskon.hr, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from archlinux.iskon.hr : Could not resolve host: archlinux.iskon.hr
+error: failed retrieving file 'extra.db' from archlinux.iskon.hr : Could not resolve host: archlinux.iskon.hr
+error: failed retrieving file 'endeavouros.db' from mirror.sjtu.edu.cn : Could not resolve host: mirror.sjtu.edu.cn
+warning: fatal error from mirror.sjtu.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'core.db' from ca.mirrors.cicku.me : Could not resolve host: ca.mirrors.cicku.me
+warning: fatal error from ca.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ca.mirrors.cicku.me : Could not resolve host: ca.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from ca.mirrors.cicku.me : Could not resolve host: ca.mirrors.cicku.me
+error: failed retrieving file 'core.db' from mirrors.pidginhost.com : Could not resolve host: mirrors.pidginhost.com
+warning: fatal error from mirrors.pidginhost.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirrors.pidginhost.com : Could not resolve host: mirrors.pidginhost.com
+error: failed retrieving file 'extra.db' from mirrors.pidginhost.com : Could not resolve host: mirrors.pidginhost.com
+error: failed retrieving file 'core.db' from arch.midov.pl : Could not resolve host: arch.midov.pl
+warning: fatal error from arch.midov.pl, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from arch.midov.pl : Could not resolve host: arch.midov.pl
+error: failed retrieving file 'extra.db' from arch.midov.pl : Could not resolve host: arch.midov.pl
+error: failed retrieving file 'core.db' from europe.mirror.pkgbuild.com : Could not resolve host: europe.mirror.pkgbuild.com
+warning: fatal error from europe.mirror.pkgbuild.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from europe.mirror.pkgbuild.com : Could not resolve host: europe.mirror.pkgbuild.com
+error: failed retrieving file 'extra.db' from europe.mirror.pkgbuild.com : Could not resolve host: europe.mirror.pkgbuild.com
+error: failed retrieving file 'core.db' from london.mirror.pkgbuild.com : Could not resolve host: london.mirror.pkgbuild.com
+warning: fatal error from london.mirror.pkgbuild.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from london.mirror.pkgbuild.com : Could not resolve host: london.mirror.pkgbuild.com
+error: failed retrieving file 'extra.db' from london.mirror.pkgbuild.com : Could not resolve host: london.mirror.pkgbuild.com
+error: failed retrieving file 'core.db' from ro.arch.niranjan.co : Could not resolve host: ro.arch.niranjan.co
+warning: fatal error from ro.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ro.arch.niranjan.co : Could not resolve host: ro.arch.niranjan.co
+error: failed retrieving file 'extra.db' from ro.arch.niranjan.co : Could not resolve host: ro.arch.niranjan.co
+error: failed retrieving file 'core.db' from mirror.hostiko.network : Could not resolve host: mirror.hostiko.network
+warning: fatal error from mirror.hostiko.network, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.hostiko.network : Could not resolve host: mirror.hostiko.network
+error: failed retrieving file 'extra.db' from mirror.hostiko.network : Could not resolve host: mirror.hostiko.network
+error: failed retrieving file 'core.db' from archlinux.interhost.co.il : Could not resolve host: archlinux.interhost.co.il
+warning: fatal error from archlinux.interhost.co.il, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from archlinux.interhost.co.il : Could not resolve host: archlinux.interhost.co.il
+error: failed retrieving file 'extra.db' from archlinux.interhost.co.il : Could not resolve host: archlinux.interhost.co.il
+error: failed retrieving file 'core.db' from mirror.neuf.no : Could not resolve host: mirror.neuf.no
+warning: fatal error from mirror.neuf.no, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.neuf.no : Could not resolve host: mirror.neuf.no
+error: failed retrieving file 'extra.db' from mirror.neuf.no : Could not resolve host: mirror.neuf.no
+error: failed retrieving file 'core.db' from mirror.meowsmp.net : Could not resolve host: mirror.meowsmp.net
+warning: fatal error from mirror.meowsmp.net, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.meowsmp.net : Could not resolve host: mirror.meowsmp.net
+error: failed retrieving file 'extra.db' from mirror.meowsmp.net : Could not resolve host: mirror.meowsmp.net
+error: failed retrieving file 'core.db' from ftp.myrveln.se : Could not resolve host: ftp.myrveln.se
+warning: fatal error from ftp.myrveln.se, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ftp.myrveln.se : Could not resolve host: ftp.myrveln.se
+error: failed retrieving file 'extra.db' from ftp.myrveln.se : Could not resolve host: ftp.myrveln.se
+error: failed retrieving file 'core.db' from ftp.rnl.tecnico.ulisboa.pt : Could not resolve host: ftp.rnl.tecnico.ulisboa.pt
+warning: fatal error from ftp.rnl.tecnico.ulisboa.pt, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ftp.rnl.tecnico.ulisboa.pt : Could not resolve host: ftp.rnl.tecnico.ulisboa.pt
+error: failed retrieving file 'extra.db' from ftp.rnl.tecnico.ulisboa.pt : Could not resolve host: ftp.rnl.tecnico.ulisboa.pt
+error: failed retrieving file 'core.db' from web.sketserv.ru : Could not resolve host: web.sketserv.ru
+warning: fatal error from web.sketserv.ru, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from web.sketserv.ru : Could not resolve host: web.sketserv.ru
+error: failed retrieving file 'extra.db' from web.sketserv.ru : Could not resolve host: web.sketserv.ru
+error: failed retrieving file 'core.db' from ru.mirrors.cicku.me : Could not resolve host: ru.mirrors.cicku.me
+warning: fatal error from ru.mirrors.cicku.me, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ru.mirrors.cicku.me : Could not resolve host: ru.mirrors.cicku.me
+error: failed retrieving file 'extra.db' from ru.mirrors.cicku.me : Could not resolve host: ru.mirrors.cicku.me
+error: failed retrieving file 'core.db' from mirror.ourhost.az : Could not resolve host: mirror.ourhost.az
+warning: fatal error from mirror.ourhost.az, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.ourhost.az : Could not resolve host: mirror.ourhost.az
+error: failed retrieving file 'extra.db' from mirror.ourhost.az : Could not resolve host: mirror.ourhost.az
+error: failed retrieving file 'core.db' from mirror.raiolanetworks.com : Could not resolve host: mirror.raiolanetworks.com
+warning: fatal error from mirror.raiolanetworks.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.raiolanetworks.com : Could not resolve host: mirror.raiolanetworks.com
+error: failed retrieving file 'extra.db' from mirror.raiolanetworks.com : Could not resolve host: mirror.raiolanetworks.com
+error: failed retrieving file 'core.db' from mirrors.dotsrc.org : Could not resolve host: mirrors.dotsrc.org
+warning: fatal error from mirrors.dotsrc.org, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirrors.dotsrc.org : Could not resolve host: mirrors.dotsrc.org
+error: failed retrieving file 'extra.db' from mirrors.dotsrc.org : Could not resolve host: mirrors.dotsrc.org
+error: failed retrieving file 'core.db' from nova.quantum-mirror.hu : Could not resolve host: nova.quantum-mirror.hu
+warning: fatal error from nova.quantum-mirror.hu, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from nova.quantum-mirror.hu : Could not resolve host: nova.quantum-mirror.hu
+error: failed retrieving file 'extra.db' from nova.quantum-mirror.hu : Could not resolve host: nova.quantum-mirror.hu
+error: failed retrieving file 'core.db' from nl.arch.niranjan.co : Could not resolve host: nl.arch.niranjan.co
+warning: fatal error from nl.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from nl.arch.niranjan.co : Could not resolve host: nl.arch.niranjan.co
+error: failed retrieving file 'extra.db' from nl.arch.niranjan.co : Could not resolve host: nl.arch.niranjan.co
+error: failed retrieving file 'core.db' from at.arch.niranjan.co : Could not resolve host: at.arch.niranjan.co
+warning: fatal error from at.arch.niranjan.co, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from at.arch.niranjan.co : Could not resolve host: at.arch.niranjan.co
+error: failed retrieving file 'extra.db' from at.arch.niranjan.co : Could not resolve host: at.arch.niranjan.co
+error: failed retrieving file 'core.db' from mirror.nl.cdn-perfprod.com : Could not resolve host: mirror.nl.cdn-perfprod.com
+warning: fatal error from mirror.nl.cdn-perfprod.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.nl.cdn-perfprod.com : Could not resolve host: mirror.nl.cdn-perfprod.com
+error: failed retrieving file 'extra.db' from mirror.nl.cdn-perfprod.com : Could not resolve host: mirror.nl.cdn-perfprod.com
+error: failed retrieving file 'core.db' from mirrors.uni-plovdiv.net : Could not resolve host: mirrors.uni-plovdiv.net
+warning: fatal error from mirrors.uni-plovdiv.net, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirrors.uni-plovdiv.net : Could not resolve host: mirrors.uni-plovdiv.net
+error: failed retrieving file 'extra.db' from mirrors.uni-plovdiv.net : Could not resolve host: mirrors.uni-plovdiv.net
+error: failed retrieving file 'core.db' from gsl-syd.mm.fcix.net : Could not resolve host: gsl-syd.mm.fcix.net
+warning: fatal error from gsl-syd.mm.fcix.net, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from gsl-syd.mm.fcix.net : Could not resolve host: gsl-syd.mm.fcix.net
+error: failed retrieving file 'extra.db' from gsl-syd.mm.fcix.net : Could not resolve host: gsl-syd.mm.fcix.net
+error: failed retrieving file 'core.db' from mirrors.atviras.lt : Could not resolve host: mirrors.atviras.lt
+warning: fatal error from mirrors.atviras.lt, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirrors.atviras.lt : Could not resolve host: mirrors.atviras.lt
+error: failed retrieving file 'extra.db' from mirrors.atviras.lt : Could not resolve host: mirrors.atviras.lt
+error: failed retrieving file 'core.db' from ftp.sh.cvut.cz : Could not resolve host: ftp.sh.cvut.cz
+warning: fatal error from ftp.sh.cvut.cz, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from ftp.sh.cvut.cz : Could not resolve host: ftp.sh.cvut.cz
+error: failed retrieving file 'extra.db' from ftp.sh.cvut.cz : Could not resolve host: ftp.sh.cvut.cz
+error: failed retrieving file 'core.db' from sydney.mirror.pkgbuild.com : Could not resolve host: sydney.mirror.pkgbuild.com
+warning: fatal error from sydney.mirror.pkgbuild.com, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from sydney.mirror.pkgbuild.com : Could not resolve host: sydney.mirror.pkgbuild.com
+error: failed retrieving file 'extra.db' from sydney.mirror.pkgbuild.com : Could not resolve host: sydney.mirror.pkgbuild.com
+error: failed retrieving file 'core.db' from mirror.tux.si : Could not resolve host: mirror.tux.si
+warning: fatal error from mirror.tux.si, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.tux.si : Could not resolve host: mirror.tux.si
+error: failed retrieving file 'extra.db' from mirror.tux.si : Could not resolve host: mirror.tux.si
+error: failed retrieving file 'core.db' from quantum-mirror.hu : Could not resolve host: quantum-mirror.hu
+warning: fatal error from quantum-mirror.hu, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from quantum-mirror.hu : Could not resolve host: quantum-mirror.hu
+error: failed retrieving file 'extra.db' from quantum-mirror.hu : Could not resolve host: quantum-mirror.hu
+error: failed retrieving file 'core.db' from mirror.quantum5.ca : Could not resolve host: mirror.quantum5.ca
+warning: fatal error from mirror.quantum5.ca, skipping for the remainder of this transaction
+error: failed retrieving file 'multilib.db' from mirror.quantum5.ca : Could not resolve host: mirror.quantum5.ca
+error: failed retrieving file 'extra.db' from mirror.quantum5.ca : Could not resolve host: mirror.quantum5.ca
+error: failed to synchronize all databases (failed to retrieve some files)
+ -> error refreshing databases - exit status 1
