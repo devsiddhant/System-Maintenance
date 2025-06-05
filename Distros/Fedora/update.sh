@@ -8,6 +8,10 @@ LOG_DIR="$BASE_DIR/logs"
 LOG_FILE="$LOG_DIR/update_$(date +'%Y%m%d_%H%M%S').log"
 MAX_LOGS=5
 
+# Telegram credentials (hardcoded — replace these with your actual token and chat ID)
+TELEGRAM_BOT_TOKEN="Paste"
+TELEGRAM_CHAT_ID="ChatID"
+
 mkdir -p "$LOG_DIR"
 
 # Update system packages with dnf
@@ -43,15 +47,11 @@ fi
 cd "$LOG_DIR"
 ls -1tr update_*.log | head -n -"$MAX_LOGS" | xargs -r rm --
 
-# Telegram notification (if enabled)
-if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
-  echo "Sending Telegram log file..." | tee -a "$LOG_FILE"
-  # Send log file only
-  curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument" \
-    -F chat_id="${TELEGRAM_CHAT_ID}" \
-    -F document=@"${LOG_FILE}" \
-    -F caption="Fedora update log $(basename "$LOG_FILE")" >> "$LOG_FILE" 2>&1
-fi
+# Telegram notification (send the log file)
+echo "Sending Telegram log file..." | tee -a "$LOG_FILE"
+curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument" \
+  -F chat_id="${TELEGRAM_CHAT_ID}" \
+  -F document=@"${LOG_FILE}" \
+  -F caption="Fedora update log $(basename "$LOG_FILE")" >> "$LOG_FILE" 2>&1
 
 echo "Update completed at $(date)" | tee -a "$LOG_FILE"
-
